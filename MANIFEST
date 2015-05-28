@@ -2,6 +2,4 @@
 setup.cfg
 setup.py
 compareMe/__init__.py
-compareMe/spoj.py
 compareMe/bin/compareMe
-compareMe/bin/test.py
