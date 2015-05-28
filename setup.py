@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'Compare-Me',
-  packages = ['Compare-Me'], 
+  name = 'compareMe',
+  packages = ['compareMe'], 
   version = '0.1',
   description = 'A comparison library'
   author = 'Punit Dhoot',
