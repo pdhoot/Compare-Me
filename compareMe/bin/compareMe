@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 
 
-parser = argparse.ArgumentParser(description='compare some users')
+parser = argparse.ArgumentParser(description='Compare users across different platforms')
 parser.add_argument('user1')
 parser.add_argument('user2')
 parser.add_argument('--spoj' , action='store_true')
