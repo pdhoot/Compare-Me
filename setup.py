@@ -1,9 +1,9 @@
 from distutils.core import setup
 setup(
-  name = 'Compare-Me',
-  packages = ['Compare-Me'], 
+  name = 'compareMe',
+  packages = ['compareMe'], 
   version = '0.1',
-  description = 'A comparison library'
+  description = 'A comparison library',
   author = 'Punit Dhoot',
   author_email = 'punitdhoot1@gmail.com',
   url = 'https://github.com/pdhoot/Compare-Me', 
