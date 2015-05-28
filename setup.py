@@ -10,4 +10,7 @@ setup(
   download_url = 'https://github.com/pdhoot/Compare-Me/tarball/0.1',
   keywords = ['compare' , 'users' , 'spoj' ,'codechef' , 'github'], # arbitrary keywords
   classifiers = [],
+  entry_points={
+        'console_scripts': ['compareMe --spoj = compareMe.spoj']
+    }
 )
