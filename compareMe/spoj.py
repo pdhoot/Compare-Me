@@ -18,7 +18,6 @@ def scrapUserData(username):
 	print data
 
 def main(user1 , user2):
-	print "Hello World"
 	t1 = threading.Thread(target=scrapUserData , args=(user1,))
 	t2 = threading.Thread(target=scrapUserData , args=(user2,))
 	t1.start()
