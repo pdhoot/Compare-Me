@@ -6,8 +6,8 @@ def ScrapeUserData(username):
 	url = 'http://www.codechef.com/users/' + username
 	html = urllib.urlopen(url)
 	soup = BeautifulSoup(html)
-	table = soup.find('table' , {'class':'rating-table'})
-	td = table.find_all('td')
+	table1 = soup.find('table' , {'class':'rating-table'})
+	td = table1.find_all('td')
 	string = """
 			Rank				Rating
 	Long		%s			%s
@@ -21,7 +21,7 @@ def ScrapeUserData(username):
 	print ' '*7 ,  name.text
 	print string
 
-def main(user1 , user2):
+def main(user1, user2):
 	t1 = threading.Thread(target=ScrapeUserData , args=(user1,))
 	t2 = threading.Thread(target=ScrapeUserData , args=(user2,))
 	t1.start()
